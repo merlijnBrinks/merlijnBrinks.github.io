@@ -1,0 +1,213 @@
+   
+            #Slimes li {
+                list-style-type: none;
+            }
+            #Slimes li a {
+                text-decoration: none;   
+                display: inline-block;
+                background-color: rgba(150, 206, 213);
+                margin: 1px 1px;
+                padding: 5px 5px;
+                box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.1);
+                color: rgba(0, 0, 0);
+            }
+            #Slimes li a:hover {
+             color: rgba(255, 255, 255);   
+            }
+   
+            
+            #ListSlime2 {
+             float: right;   
+                padding: 0px 150px;
+            }
+            
+            
+            #SlimeTable {
+
+                right: 5%;
+            }
+            
+           #SlimeImg {
+               float: right;
+            }
+            
+            
+            table, th, td {
+             border: 1px solid black;   
+            }
+            a {
+                
+            }
+           
+#SmallScreenNavBar {
+list-style-type: none;
+}
+#SmallScreenNavBar a:hover{
+    background-color: #3498DB;
+}
+ 
+#HomePoster {
+                float: right;
+                padding-right: 4%;
+                margin: 1%
+            }
+           
+
+   a:hover {
+       color:white;
+            }
+            
+            
+            body {
+             font-family: Arial;   
+                background-color: rgb(72, 209, 204);
+            }
+
+            #FoodList li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+    #FoodList li a {
+    text-decoration: none;   
+                display: inline-block;
+                background-color: rgba(150, 206, 213);
+                margin: 1px 1px;
+                padding: 5px 5px;
+                box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.1);
+                color: rgba(0, 0, 0);
+}
+            
+            #FoodList li a:hover{
+    color: rgba(210, 210, 210);
+    background-color: rgba(120, 170, 190);
+}
+#MainMenuList li {
+    font-size: 30px;
+    list-style-type: none;
+
+}
+#MainMenuList li a {
+    text-decoration: none;   
+                display: inline-block;
+                background-color: rgba(150, 206, 213);
+                margin: 1px 1px;
+                padding: 5px 5px;
+                box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.1);
+                color: rgba(0, 0, 0);
+}
+#MainMenuList li a:hover{
+    color: rgba(210, 210, 210);
+    background-color: rgba(120, 170, 190);
+}
+           
+          
+            #QuickSearch {
+                position: fixed;
+                float: center;
+                top: 0;
+                width: 100%;
+                
+            }
+            #QuickSearch {
+                list-style-type: none;
+                display: inline-block;
+                white-space: normal;
+                overflow: hidden;
+                margin: 0;
+                padding: 12px 16px;
+                text-align: center;
+                background-color: rgb(72, 230, 204);
+                box-shadow:  0px 8px 16px 0px rgba(0,0,0,0.1);
+            }
+            #QuickSearch li a {
+                text-decoration: none;
+                background-color: rgb(48, 41, 41);
+                padding: 12px 5px;
+            }
+            #QuickSearch li a:visited {
+                color: rgb(226, 226, 226);
+            }
+            #QuickSearch li a:hover {
+                color: white;
+            }
+            #QuickSearch li a:link {
+                color: rgb(226, 226, 226);
+            }
+            #QuickSearch li {
+                float: left;
+                text-align: center;
+            }
+            @media only screen and (max-width: 800px) {
+             #QuickSearch {
+                 display: none;
+                }
+            }
+            @media only screen and (max-width: 1600px) {
+                #ListSlime2 {
+                    display: none;
+                }
+            }
+
+            @media only screen and (max-width: 1600px) {
+                #HomePoster {
+                    display: none;
+                }
+            }
+            
+            
+             .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: fixed;
+    float: left;
+    top: 1%;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #54A8F9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 1px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+            
+            .active {
+                background-color: green;
+            }
+            li a:hover {
+                background-color: none;
+                color: white;
+            }
+            @media only screen and (min-width: 801px) {
+            #myDropdown, .dropbtn {
+                display: none;
+                }
+            }
+
+           
